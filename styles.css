@@ -1,10 +1,28 @@
 html,
 body {
-  margin: 0;
   height: 100%;
   background-color: rgb(38, 39, 38);
   background-image: url(images/pexels-markus-spiske-3806768.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+h1,
+p {
+  color: white;
+  text-align: center;
+  font-size: 50px;
+}
+#counter {
+  font-size: 150px;
+  text-shadow: 2px 3px 3px red;
+}
+#lap-btn {
+  display: flex;
+  justify-content: center;
+}
+button {
+  font-size: 60px;
+  padding: 5px 20px;
 }
