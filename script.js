@@ -7,8 +7,6 @@ function incLap() {
     lap -= 1;
     count.innerText = lap;
   }
-  
-  
 }
 
 function reset() {
