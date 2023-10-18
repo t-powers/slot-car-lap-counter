@@ -1,14 +1,17 @@
 let count = document.getElementById("counter");
 
-let lap = 0;
-console.log(lapReset);
+let lap = 5;
 
 function incLap() {
-  lap += 1;
-  count.innerText = lap;
+  if (lap > 0) {
+    lap -= 1;
+    count.innerText = lap;
+  }
+  
+  
 }
 
 function reset() {
-  count.innerText = 0;
-  lap = 0;
+  count.innerText = 5;
+  lap = 5;
 }
