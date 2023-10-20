@@ -14,7 +14,7 @@ p {
   margin: 0px;
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 32px;
   padding-top: 30px;
   text-shadow: 2px 2px 2px black;
 }
@@ -22,7 +22,7 @@ h2 {
   font-size: 40px;
 }
 #counter {
-  font-size: 200px;
+  font-size: 150px;
   text-shadow: 2px 3px 3px red;
 }
 .fx-btns {
@@ -32,9 +32,13 @@ h2 {
 
 button {
   font-size: 50px;
-  padding: 15px 50px;
+  padding: 10px 30px;
   margin: 20px;
   background: linear-gradient(90deg, #e9d022, #e60b09);
   color: white;
   text-shadow: 1px 1px 2px black;
+}
+.adjustLaps{
+  padding:0px;
+  background: white;
 }
