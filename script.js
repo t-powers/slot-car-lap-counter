@@ -1,5 +1,4 @@
 let count = document.getElementById("counter");
-let max = document.getElementsByClassName("adjustLaps");
 let lap = 3;
 
 function incLap() {
