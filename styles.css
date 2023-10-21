@@ -1,7 +1,7 @@
 html,
 body {
   margin: 0px;
-  height: 100%;
+  height: 130%;
   background-image: url(images/pexels-markus-spiske-3806768.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -19,13 +19,16 @@ p {
   padding-top: 30px;
   text-shadow: 2px 2px 2px black;
 }
+h1 {
+  font-size: 60px;
+}
 h2 {
   font-size: 40px;
 }
 #counter {
   font-size: 150px;
   text-shadow: 2px 3px 3px red;
-  
+  color: white;
 }
 .fx-btns {
   display: flex;
@@ -34,14 +37,14 @@ h2 {
 
 button {
   font-size: 50px;
-  padding: 10px 30px;
+  padding: 5px 70px;
   margin: 20px;
   background: linear-gradient(90deg, #e9d022, #e60b09);
   color: white;
   text-shadow: 1px 1px 2px black;
-  font-family: 'Racing Sans One', sans-serif;
+  font-family: "Racing Sans One", sans-serif;
 }
 .adjustLaps {
-  padding: 0px;
+  padding: 0px 10px;
   background: white;
 }
