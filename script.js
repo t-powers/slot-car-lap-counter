@@ -2,7 +2,7 @@ let count = document.getElementById("counter");
 let lap = 3;
 
 //lap btn activates countdown
-function incLap() {
+function decLap() {
   if (lap > 0) {
     lap -= 1;
     count.innerText = lap;
