@@ -6,7 +6,7 @@ function decLap() {
   if (lap > 0) {
     lap -= 1;
     count.innerText = lap;
-  }
+  } 
 }
 
 //activated default lap count
