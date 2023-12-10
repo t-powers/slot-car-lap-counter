@@ -6,7 +6,10 @@ function decLap() {
   if (lap > 0) {
     lap -= 1;
     count.innerText = lap;
-  } 
+  }
+  if (lap < 1) {
+    count.innerText = "Finished";
+  }
 }
 
 //activated default lap count
