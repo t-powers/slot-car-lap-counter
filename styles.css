@@ -1,9 +1,12 @@
 html,
 body {
-  margin: 0px;
-  min-height: 100%;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: auto;
+
   background-image: url(images/pexels-markus-spiske-3806768.jpg);
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
 }
